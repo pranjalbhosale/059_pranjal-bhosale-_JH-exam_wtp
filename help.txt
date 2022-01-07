@@ -1,0 +1,88 @@
+1)..npm init .......... enter enter........
+
+2)..npm install mysql
+3)..npm install bluebird
+4)..npm install nodemon
+5)..npm install cors
+6)npm install express
+
+6).."start": "nodemon src/main.js",
+
+7)..create src folder and put user main in it
+
+
+8)const mysql = require ("mysql");
+const Promise= require ("bluebird");
+Promise.promisifyAll(require("mysql/lib/Connection").prototype);
+
+const dbinfo = {
+    host: "localhost",
+    user: "root",
+    password: "cdac",
+    database: "project11",
+  };
+
+9)..ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'cdac';
+
+
+
+npm install axios
+
+
+
+
+
+
+----------------------------------------------
+1. npm init
+2. npm install mysql, bluebird, express, nodemon, cors
+3.create user.js for establishing databse connection
+
+     4.create database and table to insert database
+      .if there is error then 
+        ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'cdac'
+
+ 6.create connection
+ 7.query
+ 8.end connection (return list for select)
+
+ 9.call function to create connection
+ 10. export insert and fetch functionfa-spin
+
+
+ **create server **
+ 1. create main.js
+
+
+
+ ***create react app*
+ 1.npx create-react-app foldername
+ 2.open into vscode
+
+ 3. on terminal :npm install react-bootstrap bootstrap@5.1.3
+ 4. update link in index.js : import 'bootstrap/dist/css/bootstrap.min.css';
+5.  npm install  axios
+6. in app.js 
+import axios from "axios";
+import React from "react";
+import { useState, useEffect } from "react";
+import { NavItem } from "react-bootstrap";
+
+bootstrap-----------------------------------------------------
+npm install react-bootstrap bootstrap@5.1.3
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+
+
+https://testmoz.com/q/11318944
